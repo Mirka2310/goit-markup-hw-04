@@ -424,6 +424,9 @@ address {
   display: flex;
   align-items: baseline;
 }
+.footer-container-one {
+  margin-right: 120px;
+}
 .footer-logo-web {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
@@ -453,8 +456,7 @@ address {
   letter-spacing: 0.02em;
   max-width: 264px;
 }
-.footer-container-social {
-  margin-right: 120px;
+.footer-container-two {
 }
 .social-networks {
   font-weight: 500;
