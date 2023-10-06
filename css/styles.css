@@ -134,7 +134,7 @@ address {
 
 .first {
   background-color: #2e2f42;
-  width: 1440px;
+  max-width: 1440px;
   height: 600px;
   flex-shrink: 0;
   padding: 188px 0;
@@ -215,49 +215,11 @@ address {
 .features-content {
   width: calc((100% - 72px) / 4);
 }
-.features-antenna {
+.features-section {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 112px;
-  background-color: #f4f4fd;
-  border-radius: 4px;
-  margin-bottom: 8px;
-  width: 264px;
-  height: 112px;
-  flex-shrink: 0;
-  border: 1px solid var(--LIGHT-SLATE, #8e8f99);
-}
-.features-clock {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 112px;
-  background-color: #f4f4fd;
-  border-radius: 4px;
-  margin-bottom: 8px;
-  width: 264px;
-  height: 112px;
-  flex-shrink: 0;
-  border: 1px solid var(--LIGHT-SLATE, #8e8f99);
-}
-.features-diagram {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 112px;
-  background-color: #f4f4fd;
-  border-radius: 4px;
-  margin-bottom: 8px;
-  width: 264px;
-  height: 112px;
-  flex-shrink: 0;
-  border: 1px solid var(--LIGHT-SLATE, #8e8f99);
-}
-.features-astronaut {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background-color: #f4f4fd;
   border-radius: 4px;
   margin-bottom: 8px;
@@ -325,15 +287,28 @@ address {
   justify-content: center;
   margin-top: 8px;
 }
-.social-link-li {
+.social-madia-li {
   width: 40px;
   height: 40px;
   background-color: #4d5ae5;
   border-radius: 50%;
   margin: auto;
 }
+
 .social-network {
   color: #f4f4fd;
+  fill: #f4f4fd;
+}
+.social-link-li {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social-link-li:hover,
+.social-link-li:focus {
+  background-color: #404bbf;
 }
 
 .third-subtitle {
