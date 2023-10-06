@@ -275,6 +275,8 @@ address {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
   margin-right: 0;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .container-people {
   padding: 32px 0;
@@ -309,7 +311,6 @@ address {
   justify-content: center;
   border-radius: 50%;
   background-color: #4d5ae5;
-  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-link-li:hover,
 .social-link-li:focus {
@@ -465,4 +466,14 @@ address {
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
+}
+.social-madia {
+  gap: 16px;
+}
+.social-link-li:hover,
+.social-link-li:focus {
+  background-color: #31d0aa;
+}
+.social-madia-li {
+  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
