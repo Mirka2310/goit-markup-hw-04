@@ -401,28 +401,42 @@ address {
 }
 .fourth-content {
   width: calc((100% - 48px) / 3);
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.fourth-content:hover .fourth-blok-service {
+  transform: translateY(0);
 }
 .fourth-images {
+}
+.fourth-cover-wrap {
   position: relative;
   overflow: hidden;
 }
-.fourth-text-service {
+
+.fourth-blok-service {
+  display: flex;
+  align-items: center;
   position: absolute;
   top: 0;
+  left: 0;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  padding: 40px 32px;
   background-color: #4d5ae5;
   height: 100%;
   width: 100%;
   transform: translateY(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 40px 32px 164px 32px;
 }
-.fourth-text-service:hover {
-  transform: translateY(0%);
+.fourth-text-service {
+  color: #f4f4fd;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  width: 296px;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .fourth-title {
   color: #2e2f42;
@@ -506,6 +520,6 @@ address {
 .social-link-li:focus {
   background-color: #31d0aa;
 }
-.social-madia-li {
+.social-link-li {
   background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
