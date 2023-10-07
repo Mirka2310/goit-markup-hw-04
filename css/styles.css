@@ -414,25 +414,17 @@ address {
 .fourth-cover-wrap {
   position: relative;
   overflow: hidden;
-}
-
-.fourth-blok-service {
-  display: flex;
-  align-items: center;
-  position: absolute;
-  top: 0;
-  left: 0;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #f4f4fd;
-  background-color: #4d5ae5;
   height: 100%;
   width: 100%;
   transform: translateY(100%);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  padding: 40px 32px 164px 32px;
+  color: #f4f4fd;
+  background-color: #4d5ae5;
+  display: flex;
+  align-items: center;
+  top: 0;
+  left: 0;
 }
+
 .fourth-text-service {
   color: #f4f4fd;
   font-size: 16px;
@@ -442,6 +434,8 @@ address {
   width: 296px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transform: translateY(0%);
+  position: absolute;
+  padding: 40px 32px 164px 32px;
 }
 .fourth-title {
   color: #2e2f42;
